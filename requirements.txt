@@ -1,3 +1,5 @@
 requests
 bs4
 discord.py
+pandas
+tabula-py
