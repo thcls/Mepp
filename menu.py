@@ -23,4 +23,5 @@ downloadmenu(url)
 ## Agora a partir daqui é só implementar uma função para
 ## verificar periodicamente o menu e retornar o almoço ou
 ## a janta do respectivo dia
-get_day_menu("menu.pdf", 3, almoco=False)
+menu_string = get_day_menu("menu.pdf", 3, almoco=True)
+print(menu_string)
